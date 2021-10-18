@@ -4,7 +4,7 @@ import { promises as fs } from "fs";
 
 const ffmpeg = createFFmpeg({ log: true });
 
-const handler: Handler = async (event, context) => {
+const handler: Handler = async (_event, _context) => {
   try {
     await load();
 
