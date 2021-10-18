@@ -15,6 +15,7 @@ const handler: Handler = async (_event, _context) => {
       body: JSON.stringify({ message: "Success" }),
     };
   } catch (error) {
+    console.log(error);
     return {
       statusCode: 400,
       body: JSON.stringify({ error }),
