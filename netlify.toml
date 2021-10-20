@@ -12,4 +12,4 @@
   node_bundler = "esbuild"
   
   # Flags "package-1" as an external node module for all functions
-  external_node_modules = ["@ffmpeg/ffmpeg"]
+  external_node_modules = ["@ffmpeg/ffmpeg", "@ffmpeg/core"]
