@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "",
   "main": "static/index.js",
-  "scripts": {
-    "build": "tsc"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/chiubaca/typescript-netlify-functions-starter.git"
@@ -17,7 +14,13 @@
   },
   "homepage": "https://github.com/chiubaca/typescript-netlify-functions-starter#readme",
   "devDependencies": {
-    "typescript": "^3.9.3",
-    "@types/aws-lambda": "^8.10.59"
+    "@types/aws-lambda": "^8.10.84",
+    "@types/node": "^16.11.1",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@ffmpeg/core": "^0.10.0",
+    "@ffmpeg/ffmpeg": "^0.10.1",
+    "@netlify/functions": "^0.7.2"
   }
 }
